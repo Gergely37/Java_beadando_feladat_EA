@@ -1,31 +1,30 @@
 package library;
 
 public class Lelekszam {
-    private int cityId;
-    private int year;
-    private int women;
-    private int total;
-
-    public Lelekszam(int cityId, int year, int women, int total) {
-        this.cityId = cityId;
-        this.year = year;
-        this.women = women;
-        this.total = total;
+    private int varosid;
+    private int ev;
+    private int no;
+    private int osszesen;
+    public Lelekszam(int varosid, int ev, int no, int osszesen) {
+        this.varosid = varosid;
+        this.ev = ev;
+        this.no = no;
+        this.osszesen = osszesen;
     }
 
-    public int getId() {
-        return cityId;
-    }
-    public int getYear() {
-        return year;
+    public int getVarosid() {
+        return varosid;
     }
 
-    public int getWomen() {
-        return women;
+    public int getEv() {
+        return ev;
     }
 
-    public int getTotal() {
-        return total;
+    public int getNo() {
+        return no;
     }
 
+    public int getOsszesen() {
+        return osszesen;
+    }
 }

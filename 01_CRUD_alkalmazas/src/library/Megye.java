@@ -1,19 +1,19 @@
 package library;
 
 public class Megye {
-    public Megye(int countyid, String countyName) {
-        countyId = countyid;
-        this.countyName = countyName;
+    private int id;
+    private String nev;
+
+    public int getId() {
+        return id;
     }
 
-    private int countyId;
-    private String countyName;
-
-    public int getCountyId() {
-        return countyId;
+    public Megye(int id, String nev) {
+        this.id = id;
+        this.nev = nev;
     }
 
-    public String getCountyName() {
-        return countyName;
+    public String getNev() {
+        return nev;
     }
 }

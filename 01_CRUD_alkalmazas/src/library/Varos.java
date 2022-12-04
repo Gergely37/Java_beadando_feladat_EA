@@ -1,37 +1,39 @@
 package library;
 
 public class Varos {
-    public Varos(int cityId, String cityName, int countyId, boolean countySeat, boolean countyCouncil) {
-        this.cityId = cityId;
-        this.cityName = cityName;
-        this.countyId = countyId;
-        this.countySeat = countySeat;
-        this.countyCouncil = countyCouncil;
+
+    private int id;
+    private String nev;
+    private int megyeid;
+
+    public Varos(int id, String nev, int megyeid, boolean megyeszekhely, boolean megyeijogu) {
+        this.id = id;
+        this.nev = nev;
+        this.megyeid = megyeid;
+        this.megyeszekhely = megyeszekhely;
+        this.megyeijogu = megyeijogu;
     }
 
-    private int cityId;
-    private String cityName;
-    private int countyId;
-    private boolean countySeat;
-    private boolean countyCouncil;
+    private boolean megyeszekhely;
+    private boolean megyeijogu;
 
     public int getId() {
-        return cityId;
+        return id;
     }
 
-    public String getCityName() {
-        return cityName;
+    public String getNev() {
+        return nev;
     }
 
-    public int getCountyId() {
-        return countyId;
+    public int getMegyeid() {
+        return megyeid;
     }
 
-    public boolean getCountySeat() {
-        return countySeat;
+    public boolean isMegyeszekhely() {
+        return megyeszekhely;
     }
 
-    public boolean getCountyCouncil() {
-        return countyCouncil;
+    public boolean isMegyeijogu() {
+        return megyeijogu;
     }
 }

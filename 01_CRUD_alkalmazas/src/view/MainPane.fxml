@@ -51,21 +51,39 @@
            
          </children>
       </VBox>
-      <HBox layoutX="26.0" layoutY="202.0" spacing="10.0">
+      <HBox layoutX="26.0" layoutY="240.0" spacing="10.0">
          <children>
             <Button fx:id="insertButton" mnemonicParsing="false" onAction="#insertButton" prefHeight="30.0" prefWidth="60.0" text="Insert" />
             <Button fx:id="updateButton" mnemonicParsing="false" onAction="#updateButton" prefHeight="30.0" prefWidth="60.0" text="Update" />
             <Button fx:id="deleteButton" mnemonicParsing="false" onAction="#deleteButton" prefHeight="30.0" prefWidth="60.0" text="Delete" />
+
+            <Button fx:id="megyeView" mnemonicParsing="false" onAction="#megyeView" prefHeight="30.0" prefWidth="90.0" text="Megye tábla"/>
+            <Button fx:id="lelekszamView" mnemonicParsing="false" onAction="#lelekszamView" prefHeight="30.0" prefWidth="110.0" text="Lélekszám tábla"/>
+            <Button fx:id="varosView" mnemonicParsing="false" onAction="#varosView" prefHeight="30.0" prefWidth="90.0" text="Város tábla"/>
          </children>
       </HBox>
       <TableView fx:id="TableView" layoutX="238.0" layoutY="22.0" prefHeight="210.0" prefWidth="400.0">
         <columns>
           <TableColumn fx:id="idColumn" prefWidth="35.0" text="ID" />
-          <TableColumn fx:id="nameColumn" prefWidth="120.0" text="Name" />
-            <TableColumn fx:id="countyIdColumn" prefWidth="120.0" text="County ID" />
-            <TableColumn fx:id="countySeatColumn" prefWidth="60.0" text="County Seat" />
-            <TableColumn fx:id="countyCouncilColumn" prefWidth="60.0" text="County Council" />
+          <TableColumn fx:id="nevColumn" prefWidth="120.0" text="Name" />
+            <TableColumn fx:id="megyeidColumn" prefWidth="120.0" text="County ID" />
+            <TableColumn fx:id="megyeszekhelyColumn" prefWidth="60.0" text="County Seat" />
+            <TableColumn fx:id="megyeijoguColumn" prefWidth="60.0" text="County Council" />
         </columns>
+      </TableView>
+      <TableView fx:id="TableViewMegye" layoutX="238.0" layoutY="22.0" prefHeight="210.0" prefWidth="400.0">
+         <columns>
+            <TableColumn fx:id="idmegyeColumn" prefWidth="35.0" text="ID" />
+            <TableColumn fx:id="nevmegyeColumn" prefWidth="120.0" text="Name" />
+         </columns>
+      </TableView>
+      <TableView fx:id="TableViewLelekszam" layoutX="238.0" layoutY="22.0" prefHeight="210.0" prefWidth="400.0">
+         <columns>
+            <TableColumn fx:id="varosidColumn" prefWidth="35.0" text="ID" />
+            <TableColumn fx:id="evColumn" prefWidth="120.0" text="Name" />
+            <TableColumn fx:id="noColumn" prefWidth="120.0" text="County ID" />
+            <TableColumn fx:id="osszesenColumn" prefWidth="60.0" text="County Seat" />
+         </columns>
       </TableView>
    </children>
 </AnchorPane>

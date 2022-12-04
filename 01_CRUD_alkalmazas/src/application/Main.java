@@ -16,7 +16,6 @@ public class Main extends Application {
         stage.setScene(scene);
         stage.setTitle("Varosok");
         stage.show();
-        
     }
 
     public static void main(String[] args) {

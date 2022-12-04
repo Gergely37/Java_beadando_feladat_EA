@@ -14,27 +14,27 @@
    <children>
       <VBox layoutX="26.0" layoutY="22.0" spacing="15.0">
          <children>
-            <Label text="ID">
+            <Label text="Id">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label text="Title">
+            <Label text="Name">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label text="Author">
+            <Label text="County Id">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label text="Year">
+            <Label text="County Seat">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label text="Pages">
+            <Label text="County Council">
                <font>
                   <Font size="14.0" />
                </font>
@@ -43,29 +43,47 @@
       </VBox>
       <VBox layoutX="87.0" layoutY="22.0" prefHeight="130.0" prefWidth="129.0" spacing="10.0">
          <children>
-            <TextField fx:id="idField" />
-            <TextField fx:id="titleField" />
-            <TextField fx:id="authorField" />
-            <TextField fx:id="yearField" />
-            <TextField fx:id="pagesField" />
+            <TextField fx:id="cityIdField" />
+            <TextField fx:id="cityNameField" />
+            <TextField fx:id="countyIdField" />
+            <TextField fx:id="countySeatField" />
+            <TextField fx:id="countyCouncilField" />
            
          </children>
       </VBox>
-      <HBox layoutX="26.0" layoutY="202.0" spacing="10.0">
+      <HBox layoutX="26.0" layoutY="240.0" spacing="10.0">
          <children>
             <Button fx:id="insertButton" mnemonicParsing="false" onAction="#insertButton" prefHeight="30.0" prefWidth="60.0" text="Insert" />
             <Button fx:id="updateButton" mnemonicParsing="false" onAction="#updateButton" prefHeight="30.0" prefWidth="60.0" text="Update" />
             <Button fx:id="deleteButton" mnemonicParsing="false" onAction="#deleteButton" prefHeight="30.0" prefWidth="60.0" text="Delete" />
+
+            <Button fx:id="megyeView" mnemonicParsing="false" onAction="#megyeView" prefHeight="30.0" prefWidth="90.0" text="Megye tábla"/>
+            <Button fx:id="lelekszamView" mnemonicParsing="false" onAction="#lelekszamView" prefHeight="30.0" prefWidth="110.0" text="Lélekszám tábla"/>
+            <Button fx:id="varosView" mnemonicParsing="false" onAction="#varosView" prefHeight="30.0" prefWidth="90.0" text="Város tábla"/>
          </children>
       </HBox>
       <TableView fx:id="TableView" layoutX="238.0" layoutY="22.0" prefHeight="210.0" prefWidth="400.0">
         <columns>
           <TableColumn fx:id="idColumn" prefWidth="35.0" text="ID" />
-          <TableColumn fx:id="titleColumn" prefWidth="120.0" text="Title" />
-            <TableColumn fx:id="authorColumn" prefWidth="120.0" text="Author" />
-            <TableColumn fx:id="yearColumn" prefWidth="60.0" text="Year" />
-            <TableColumn fx:id="pagesColumn" prefWidth="60.0" text="Pages" />
+          <TableColumn fx:id="nevColumn" prefWidth="120.0" text="Name" />
+            <TableColumn fx:id="megyeidColumn" prefWidth="120.0" text="County ID" />
+            <TableColumn fx:id="megyeszekhelyColumn" prefWidth="60.0" text="County Seat" />
+            <TableColumn fx:id="megyeijoguColumn" prefWidth="60.0" text="County Council" />
         </columns>
+      </TableView>
+      <TableView fx:id="TableViewMegye" layoutX="238.0" layoutY="22.0" prefHeight="210.0" prefWidth="400.0">
+         <columns>
+            <TableColumn fx:id="idmegyeColumn" prefWidth="35.0" text="ID" />
+            <TableColumn fx:id="nevmegyeColumn" prefWidth="120.0" text="Name" />
+         </columns>
+      </TableView>
+      <TableView fx:id="TableViewLelekszam" layoutX="238.0" layoutY="22.0" prefHeight="210.0" prefWidth="400.0">
+         <columns>
+            <TableColumn fx:id="varosidColumn" prefWidth="35.0" text="ID" />
+            <TableColumn fx:id="evColumn" prefWidth="120.0" text="Name" />
+            <TableColumn fx:id="noColumn" prefWidth="120.0" text="County ID" />
+            <TableColumn fx:id="osszesenColumn" prefWidth="60.0" text="County Seat" />
+         </columns>
       </TableView>
    </children>
 </AnchorPane>
