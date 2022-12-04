@@ -64,14 +64,14 @@ public class RestKliens {
         Itt a PUT metódusnál mind a 4 adatot módosítjuk.
         Átalakítani a PUT metódust úgy, hogy 1,2,3,4 módosítandó adat esetén is jól működjön.
      */
-    static void PUT(String ID, String name, String gender, String email, String status) throws IOException {
+    static void PUT(String cityId, String cityName, Integer countyId, String countySeat, String countyCouncil) throws IOException {
         System.out.println("\nPUT...");
-        String url = "https://gorest.co.in/public/v1/users"+"/"+ID;
+        String url = "https://gorest.co.in/public/v1/users"+"/"+cityId;
         URL postUrl = new URL(url);  // Url for making PUT request
         connection = (HttpsURLConnection) postUrl.openConnection();
         connection.setRequestMethod("PUT");            // Set PUT as request method
         segéd1();
-        String params = "{\"name\":\""+name+"\", \"gender\":\""+gender+"\", \"email\":\""+email+"\", \"status\":\""+status+"\"}";   // Adding Body payload for POST request
+        String params = "{\"cityName\":\""+cityName+"\", \"countyId\":\""+countyId+"\", \"countySeat\":\""+countySeat+"\", \"countyCouncil\":\""+countyCouncil+"\"}";   // Adding Body payload for POST request
         segéd2(params);
         segéd3(HttpsURLConnection.HTTP_OK);
     }
@@ -90,10 +90,10 @@ public class RestKliens {
     public static void main(String[] args) throws IOException {
         GET(null);
         // Emailnek egyedinek kell lenni!!!
-        POST("Horváth János", "male", "email21@data.hu","active");
+        POST("Izsák", "1", "0","0");
         String ID="3399";
         GET(ID);
-        PUT(ID,"Horváth János2", "male", "email3@data.hu","active");
+        PUT(ID,"Dabas", 2, "0","0");
         GET(ID);
         DELETE(ID);
         GET(ID);
