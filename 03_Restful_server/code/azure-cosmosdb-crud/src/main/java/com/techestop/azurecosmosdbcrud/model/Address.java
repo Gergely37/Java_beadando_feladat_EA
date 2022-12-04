@@ -8,20 +8,20 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Address {
-    @JsonProperty("AddressLine1")
+    @JsonProperty("Varos1")
     private String addressLine1;
-    @JsonProperty("AddressLine2")
+    @JsonProperty("Varos2")
     private String addressLine2;
-    @JsonProperty("AddressLine3")
+    @JsonProperty("Varos3")
     private String addressLine3;
-    @JsonProperty("IsCurrentAddress")
+    @JsonProperty("IsCurrentCity")
     private String isCurrentAddress;
-    @JsonProperty("IsPermanentAddress")
+    @JsonProperty("IsPermanentCity")
     private String isPermanentAddress;
-    @JsonProperty("Pincode")
-    private String pinCode;
-    @JsonProperty("City")
-    private String city;
-    @JsonProperty("State")
-    private String state;
+    @JsonProperty("megyeid")
+    private String megyeId;
+    @JsonProperty("Megyeszekhely")
+    private String megyeszekhely;
+    @JsonProperty("megyeijogu")
+    private String Megyeijogu;
 }

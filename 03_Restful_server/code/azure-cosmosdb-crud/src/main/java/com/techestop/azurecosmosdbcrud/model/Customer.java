@@ -12,25 +12,25 @@ import java.util.List;
 
 @Getter
 @Setter
-@Container(containerName = "Customer", ru = "400")
+@Container(containerName = "Varos", ru = "400")
 public class Customer {
 
     @Id
     @GeneratedValue
-    private String id;
-    private String firstName;
+    private Integer id;
+    private String nev;
 
     @PartitionKey
-    private String lastName;
-    private String contactNumber;
-    private List<Address> addresses;
+    private Integer megyeid;
+    private Boolean megyeszekhely;
+    private Boolean megyeijogu;
 
-    public Customer(String firstName, String lastName, String contactNumber, List<Address> addresses){
+    public Customer(String nev, Integer megyeid, Boolean megyeszekhely, Boolean megyeijogu){
 
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.contactNumber = contactNumber;
-        this.addresses = addresses;
+        this.nev = nev;
+        this.megyeid = megyeid;
+        this.megyeszekhely = megyeszekhely;
+        this.megyeijogu = megyeijogu;
     }
 
 
