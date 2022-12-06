@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="nz.ac.waikato.cms.weka.stable" level="project" />
+    <orderEntry type="library" name="alibaba.alink.alink_connector_jdbc_mysql_flink.1.10_2.11" level="project" />
+    <orderEntry type="library" name="alibaba.ververica.flink.connector.mysql.cdc" level="project" />
+    <orderEntry type="library" name="alibaba.ververica.flink.connector.mysql.cdc1" level="project" />
+  </component>
+</module>
