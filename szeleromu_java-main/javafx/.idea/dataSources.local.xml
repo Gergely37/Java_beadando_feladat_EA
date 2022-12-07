@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-222.4345.14">
+    <data-source name="default/Hibernate" uuid="8582fa8c-9496-4186-8d4d-c6b28f30601a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <user-name>root</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="Varosok:src:main:resources:hibernate.cfg.xml/Hibernate" uuid="405e079f-b674-4aff-b201-86d2cbe1dd83">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <user-name>root</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>

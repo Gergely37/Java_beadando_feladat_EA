@@ -16,5 +16,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="alibaba.ververica.flink.connector.mysql.cdc" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

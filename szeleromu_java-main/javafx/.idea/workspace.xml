@@ -8,7 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="2HbHOzl5Lg2m2ioW92xE0A7YXvn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,7 +21,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/xy/Documents/GitHub/szeleromu_java/javafx/Szeleromuvek"
+    "last_opened_file_path": "C:/Users/csern/OneDrive/Dokumentumok/GitHub/Java_beadando_feladat_GY",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -33,10 +34,26 @@
       <option name="presentableId" value="Default" />
       <updated>1668546834497</updated>
       <workItem from="1668546835839" duration="12000" />
+      <workItem from="1670364034645" duration="50000" />
+      <workItem from="1670364112978" duration="68000" />
+      <workItem from="1670364193324" duration="644000" />
+      <workItem from="1670365687683" duration="66000" />
+      <workItem from="1670401231255" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
