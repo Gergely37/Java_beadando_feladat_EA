@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5323d174-aee0-41fc-94e6-2fd341ae4495" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,6 +12,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+<<<<<<< Updated upstream
+=======
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectId" id="2HbHOzl5Lg2m2ioW92xE0A7YXvn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,8 +30,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+<<<<<<< Updated upstream
     "last_opened_file_path": "C:/Users/csern/OneDrive/Dokumentumok/GitHub/Java_beadando_feladat_GY",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+=======
+    "last_opened_file_path": "C:/Users/csomo/OneDrive/Desktop/01_CRUD_alkalmazas",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+>>>>>>> Stashed changes
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -34,11 +51,18 @@
       <option name="presentableId" value="Default" />
       <updated>1668546834497</updated>
       <workItem from="1668546835839" duration="12000" />
+<<<<<<< Updated upstream
       <workItem from="1670364034645" duration="50000" />
       <workItem from="1670364112978" duration="68000" />
       <workItem from="1670364193324" duration="644000" />
       <workItem from="1670365687683" duration="66000" />
       <workItem from="1670401231255" duration="28000" />
+=======
+      <workItem from="1670662307046" duration="4101000" />
+      <workItem from="1670679295375" duration="2567000" />
+      <workItem from="1670689322599" duration="32000" />
+      <workItem from="1670689385858" duration="12000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

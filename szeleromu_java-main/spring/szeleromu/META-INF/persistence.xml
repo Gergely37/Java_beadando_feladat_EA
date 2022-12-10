@@ -5,11 +5,11 @@
              version="3.0">
   <persistence-unit name="default">
 
-      <class>com.example.szeleromu.model.Helyszin</class>
-      <class>com.example.szeleromu.model.Megye</class>
-      <class>com.example.szeleromu.model.Torony</class>
-      <class>com.example.szeleromu.model.Webuser</class>
-      <class>com.example.szeleromu.model.Contact</class>
+      <class>com.example.varosok.model.Helyszin</class>
+      <class>com.example.varosok.model.Megye</class>
+      <class>com.example.varosok.model.Torony</class>
+      <class>com.example.varosok.model.Webuser</class>
+      <class>com.example.varosok.model.Contact</class>
       <properties>
           <property name="hibernate.connection.url"
                     value="jdbc:sqlserver://szeleromu.database.windows.net:1433;database=szeleromu;user=CloudSA65387f66@szeleromu;password=Szeleromu00;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;"/>

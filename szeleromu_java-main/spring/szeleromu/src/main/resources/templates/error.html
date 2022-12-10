@@ -9,7 +9,7 @@
 <body>
 <div class="navbar bg-primary">
   <div class="flex-1">
-    <a th:href="@{/}" class="btn btn-ghost normal-case text-xl">Szélerőművek!</a>
+    <a th:href="@{/}" class="btn btn-ghost normal-case text-xl">HIBA A REGISZTRÁCIÓ SORÁN</a>
   </div>
 
   <div th:if="${currentUserRole.equals('ROLE_ANONYMOUS') == false}" class="flex-none">
@@ -23,7 +23,7 @@
       </label>
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li>
-          <a th:href="@{/powerplant}">Erőművek</a>
+          <a th:href="@{/powerplant}">Városok</a>
         </li>
         <li>
           <a th:href="@{/contact}">Üzenet</a>
